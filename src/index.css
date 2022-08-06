@@ -1,0 +1,46 @@
+:root {
+  --background: #fff;
+  --text-primary: #000;
+  --text-secondary: #032057;
+  --accent: #032057;
+  --border: #333;
+  --form-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --background: #000;
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: rgb(26, 57, 87);
+  --white: rgb(226, 236, 236);
+}
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+  transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.ligth {
+  --background-color: var(--white);
+  --text-color: var(--blue);
+  --font-weight: 500;
+}
+
+body.dark {
+  --background-color: var(--blue);
+  --text-color: var(--white);
+  --font-weight: 500;
+}
