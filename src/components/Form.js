@@ -28,6 +28,9 @@ export const Form = () => {
 
   return (
     <div className="container">
+      <h1>
+
+      </h1>
       <form className="form" onSubmit={submit}>
         <div>
           <label>DiscordId</label>

@@ -25,6 +25,7 @@ label{
   margin: 8px;
   font-weight: 600;
   font-size: 22px;
+  color: var(--blue);
 }
 
 input {
@@ -52,5 +53,3 @@ h2 {
   text-align: center;
   padding: 1rem;
 }
-
-

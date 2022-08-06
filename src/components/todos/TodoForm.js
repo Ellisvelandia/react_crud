@@ -1,6 +1,8 @@
 import { useContext, useState } from "react";
 import { TodoContext } from "../../contexts/todoContext";
 import TodoService from "../../services/todoService";
+import "../Home.css";
+
 
 
 export default function TodoForm() {
