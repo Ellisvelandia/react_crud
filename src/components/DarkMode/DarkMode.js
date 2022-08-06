@@ -2,9 +2,9 @@ import React from "react";
 import "../DarkMode/DarkMode.css";
 
 const DarkMode = () => {
-  let clickedClass = "cliked";
+  let clickedClass = "clicked";
   const body = document.body;
-  const ligthTheme = "ligth";
+  const lightTheme = "light";
   const darkTheme = "dark";
   let theme;
 
@@ -12,21 +12,21 @@ const DarkMode = () => {
     theme = localStorage.getItem("theme");
   }
 
-  if (theme === ligthTheme || theme === darkTheme) {
+  if (theme === lightTheme || theme === darkTheme) {
     body.classList.add(theme);
   } else {
-    body.classList.add(ligthTheme);
+    body.classList.add(lightTheme);
   }
 
-  const swichTheme = (e) => {
+  const switchTheme = (e) => {
     if (theme === darkTheme) {
-      body.classList.replace(darkTheme, ligthTheme);
+      body.classList.replace(darkTheme, lightTheme);
       e.target.classList.remove(clickedClass);
-      localStorage.setItem("theme", "ligth");
-      theme = ligthTheme;
+      localStorage.setItem("theme", "light");
+      theme = lightTheme;
     } else {
-      body.classList.replace(ligthTheme, darkTheme);
-      e.target.classList.remove(clickedClass);
+      body.classList.replace(lightTheme, darkTheme);
+      e.target.classList.add(clickedClass);
       localStorage.setItem("theme", "dark");
       theme = darkTheme;
     }
@@ -36,7 +36,7 @@ const DarkMode = () => {
     <button
       className={theme === "dark" ? clickedClass : ""}
       id="darkMode"
-      onClick={(e) => swichTheme}
+      onClick={(e) => switchTheme(e)}
     ></button>
   );
 };
