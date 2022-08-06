@@ -15,7 +15,7 @@ const Title = () => {
     // Initial animation
     setTimeout(() => {
       span.classList.add("active");
-    }, 750 * (idx + 1));
+    }, 1000 * (idx + 1));
   });
   return (
     <div class="word">
