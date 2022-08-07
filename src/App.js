@@ -1,5 +1,4 @@
-import { useContext, useEffect } from "react";
-import "./App.css";
+import { useContext} from "react";
 import { Form } from "./components/Form";
 import Home from "./components/Home";
 import { UserContext } from "./contexts/userContext";
