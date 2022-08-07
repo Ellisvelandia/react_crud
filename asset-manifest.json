@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_crud/static/css/main.8c11a8a2.css",
+    "main.js": "/react_crud/static/js/main.d231f182.js",
+    "static/js/787.f8f5a804.chunk.js": "/react_crud/static/js/787.f8f5a804.chunk.js",
+    "static/media/moon.png": "/react_crud/static/media/moon.6e2acfbe4659046d2709.png",
+    "index.html": "/react_crud/index.html",
+    "main.8c11a8a2.css.map": "/react_crud/static/css/main.8c11a8a2.css.map",
+    "main.d231f182.js.map": "/react_crud/static/js/main.d231f182.js.map",
+    "787.f8f5a804.chunk.js.map": "/react_crud/static/js/787.f8f5a804.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c11a8a2.css",
+    "static/js/main.d231f182.js"
+  ]
+}
