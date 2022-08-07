@@ -1,24 +1,23 @@
-.loading span {
-  position: relative;
-  display: inline-block;
-  font-size: 40px;
-  color: #fff;
-  text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
-}
-@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
-  }
-}
-
-
-
-#welcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+h1 {
   text-align: center;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#form {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Todo {
+  padding: 0;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }

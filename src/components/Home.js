@@ -27,9 +27,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1 id="welcome">
-        Welcome {user.username}
-      </h1>
+      <h1 id="welcome">Welcome {user.username}</h1>
       <TodoForm />
       <TodoList />
     </div>
